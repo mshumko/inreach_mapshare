@@ -100,5 +100,3 @@ class Get_KML():
 if __name__ == '__main__':
     data = Get_KML(secret.secret['username'], secret.secret['password'])
     data.request_loop(1)
-    # data.get_coordinates()
-    # data.save_coordinates()
